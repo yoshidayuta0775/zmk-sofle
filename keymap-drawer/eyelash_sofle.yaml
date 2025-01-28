@@ -15,46 +15,46 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
   - Q
-  - L
-  - U
-  - {t: ',', s: <}
-  - .
-  - $$mdi:arrow-down-bold$$
-  - F
   - W
+  - E
   - R
+  - T
+  - $$mdi:arrow-down-bold$$
   - Y
+  - U
+  - I
+  - O
   - P
   - {t: \, s: '|'}
   - $$mdi:apple-keyboard-shift$$
-  - E
-  - I
   - A
-  - O
-  - {t: '-', s: _}
-  - $$mdi:arrow-left-bold$$
-  - K
-  - T
-  - N
   - S
+  - D
+  - F
+  - G
+  - $$mdi:arrow-left-bold$$
   - H
+  - J
+  - K
+  - L
+  - {t: ;, s: ':'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-control$$
   - Z
   - X
   - C
   - V
-  - {t: ;, s: ':'}
-  - $$mdi:arrow-right-bold$$
-  - G
-  - D
-  - M
-  - J
   - B
+  - $$mdi:arrow-right-bold$$
+  - N
+  - M
+  - {t: ',', s: <}
+  - .
   - {t: /, s: '?'}
+  - RIGHT WIN
   - $$mdi:alpha-w-box$$
-  - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-command$$
+  - INT HENKAN
+  - INT MUHENKAN
   - $$mdi:apple-keyboard-option$$
   - layer1
   - $$mdi:keyboard-space$$
