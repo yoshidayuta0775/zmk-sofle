@@ -25,7 +25,7 @@ layers:
   - I
   - O
   - P
-  - {t: \, s: '|'}
+  - {t: '-', s: _}
   - $$mdi:apple-keyboard-shift$$
   - A
   - S
@@ -53,8 +53,8 @@ layers:
   - {t: /, s: '?'}
   - RIGHT WIN
   - $$mdi:alpha-w-box$$
-  - INT HENKAN
-  - INT MUHENKAN
+  - INT4
+  - INT5
   - $$mdi:apple-keyboard-option$$
   - layer1
   - $$mdi:keyboard-space$$
@@ -89,7 +89,7 @@ layers:
   - END
   - $$mdi:arrow-up-bold$$
   - HOME
-  - {t: '-', s: _}
+  - \
   - {t: '=', s: +}
   - RGB COLOR HSB(0,100,50)
   - RGB COLOR HSB(61,100,54)
