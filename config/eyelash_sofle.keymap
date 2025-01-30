@@ -52,11 +52,11 @@
 
         layer0 {
             bindings = <
-&kp ESC         &kp N1    &kp N2    &kp N3        &kp N4  &kp N5       &kp F20    &kp N6     &kp N7  &kp N8     &kp N9      &kp N0         &kp BACKSPACE
-&kp TAB         &kp Q     &kp W     &kp E         &kp R   &kp T        &kp F22    &kp Y      &kp U   &kp I      &kp O       &kp P          &kp ENTER
-&kp LEFT_SHIFT  &kp A     &kp S     &kp D         &kp F   &kp G        &kp F23    &kp H      &kp J   &kp K      &kp L       &kp SEMICOLON  &kp MINUS
-&kp LCTRL       &kp Z     &kp X     &kp C         &kp V   &kp B        &kp F21    &kp N      &kp M   &kp COMMA  &kp PERIOD  &kp RSHIFT     &kp RIGHT_WIN
-&caps_word      &kp INT4  &kp INT5  &kp LEFT_ALT  &mo 1   &kp SPACE    &kp ENTER  &kp SPACE  &mo 2   &kp DEL    &kp SLASH   &kp LCTRL
+&kp ESC         &kp N1    &kp N2        &kp N3        &kp N4  &kp N5       &mo 2     &kp N6     &kp N7     &kp N8     &kp N9      &kp N0         &kp BACKSPACE
+&kp TAB         &kp Q     &kp W         &kp E         &kp R   &kp T        &mo 3     &kp Y      &kp U      &kp I      &kp O       &kp P          &kp ENTER
+&kp LEFT_SHIFT  &kp A     &kp S         &kp D         &kp F   &kp G        &mkp MB1  &kp H      &kp J      &kp K      &kp L       &kp SEMICOLON  &kp RIGHT_SHIFT
+&kp LCTRL       &kp Z     &kp X         &kp C         &kp V   &kp B        &mkp MB2  &kp N      &kp M      &kp COMMA  &kp PERIOD  &kp SLASH      &kp RIGHT_CONTROL
+&caps_word      &kp INT4  &kp LEFT_WIN  &kp LEFT_ALT  &mo 1   &kp SPACE    &mkp MB3  &kp SPACE  &kp MINUS  &kp MINUS  &kp EQUAL   &kp INT4
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -65,10 +65,10 @@
 
         layer_1 {
             bindings = <
-&kp GRAVE                        &kp F1                            &kp F2                             &kp F3                             &kp F4                             &kp F5                               &mmv MOVE_UP     &kp F6           &kp F7           &kp F8      &kp F9     &kp F10               &trans
-&kp GRAVE                        &kp GRAVE                         &mkp LCLK                          &mkp MCLK                          &mkp RCLK                          &mkp MB4                             &mmv MOVE_DOWN   &kp PG_UP        &kp END          &kp UP      &kp HOME   &kp NON_US_BACKSLASH  &kp EQUAL
-&rgb_ug RGB_COLOR_HSB(0,100,50)  &rgb_ug RGB_COLOR_HSB(61,100,54)  &rgb_ug RGB_COLOR_HSB(119,100,50)  &rgb_ug RGB_COLOR_HSB(183,100,50)  &rgb_ug RGB_COLOR_HSB(245,100,50)  &rgb_ug RGB_COLOR_HSB(304,100,50)    &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT         &kp DOWN    &kp RIGHT  &kp LEFT_BRACKET      &kp RIGHT_BRACKET
-&trans                           &rgb_ug RGB_OFF                   &rgb_ug RGB_ON                     &rgb_ug RGB_EFF                    &rgb_ug RGB_EFR                    &rgb_ug RGB_SPI                      &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp INSERT  &kp F11    &kp F12               &trans
+&kp GRAVE                        &kp F1                            &kp F2                             &kp F3                             &kp F4                             &kp F5                               &mmv MOVE_UP     &kp F6           &kp F7           &kp F8      &kp F9     &kp F10           &trans
+&kp GRAVE                        &kp GRAVE                         &mkp LCLK                          &mkp MCLK                          &mkp RCLK                          &mkp MB4                             &mmv MOVE_DOWN   &kp PG_UP        &kp END          &kp UP      &kp HOME   &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&rgb_ug RGB_COLOR_HSB(0,100,50)  &rgb_ug RGB_COLOR_HSB(61,100,54)  &rgb_ug RGB_COLOR_HSB(119,100,50)  &rgb_ug RGB_COLOR_HSB(183,100,50)  &rgb_ug RGB_COLOR_HSB(245,100,50)  &rgb_ug RGB_COLOR_HSB(304,100,50)    &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT         &kp DOWN    &kp RIGHT  &kp SQT           &kp NON_US_BACKSLASH
+&trans                           &rgb_ug RGB_OFF                   &rgb_ug RGB_ON                     &rgb_ug RGB_EFF                    &rgb_ug RGB_EFR                    &rgb_ug RGB_SPI                      &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp INSERT  &kp F11    &kp F12           &trans
 &kp C_MUTE                       &trans                            &trans                             &trans                             &trans                             &trans                               &mkp LCLK        &trans           &trans           &trans      &trans     &trans
             >;
 
@@ -78,11 +78,11 @@
 
         layer_2 {
             bindings = <
-&kp TILDE  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &mmv MOVE_UP     &mkp MB3  &mkp MB2  &kp F8  &kp F9  &kp F10     &trans
-&trans     &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans        &trans          &mmv MOVE_DOWN   &mkp MB1  &kp F1    &kp F2  &kp F3  &kp UNDER   &kp PLUS
-&trans     &out OUT_USB  &out OUT_BLE    &trans        &trans        &trans          &mmv MOVE_LEFT   &trans    &kp F4    &kp F5  &kp F6  &kp LBRC    &kp RBRC
-&trans     &sys_reset    &trans          &bootloader   &trans        &trans          &mmv MOVE_RIGHT  &trans    &kp F7    &kp F8  &kp F9  &kp RSHIFT  &trans
-&trans     &trans        &trans          &trans        &trans        &trans          &mkp LCLK        &trans    &trans    &trans  &trans  &kp RCTRL
+&kp TILDE  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans           &kp F16  &kp F1   &kp F2   &kp F3   &kp F20     &kp F21
+&trans     &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans        &trans          &trans           &kp F17  &kp F4   &kp F5   &kp F6   &kp UNDER   &kp PLUS
+&trans     &out OUT_USB  &out OUT_BLE    &trans        &trans        &trans          &mmv MOVE_LEFT   &kp F18  &kp F7   &kp F8   &kp F9   &kp LBRC    &kp RBRC
+&trans     &sys_reset    &trans          &bootloader   &trans        &trans          &mmv MOVE_RIGHT  &kp F19  &kp F10  &kp F11  &kp F12  &kp RSHIFT  &kp RCTRL
+&trans     &trans        &trans          &trans        &trans        &trans          &mkp LCLK        &trans   &trans   &kp F13  &kp F14  &kp F15
             >;
 
             sensor-bindings = <&scroll_encoder>;
