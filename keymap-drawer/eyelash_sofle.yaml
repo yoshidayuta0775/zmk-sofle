@@ -61,7 +61,7 @@ layers:
   - '&mkp MB3'
   - $$mdi:keyboard-space$$
   - {t: '-', s: _}
-  - {t: '-', s: _}
+  - {t: '=', s: +}
   - {t: '=', s: +}
   - INT4
   layer1:
