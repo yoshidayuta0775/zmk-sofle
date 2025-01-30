@@ -6,7 +6,7 @@ layers:
   - {t: '3', s: '#'}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
-  - F20
+  - '2'
   - {t: '6', s: ^}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
@@ -19,7 +19,7 @@ layers:
   - E
   - R
   - T
-  - F22
+  - '3'
   - Y
   - U
   - I
@@ -32,38 +32,38 @@ layers:
   - D
   - F
   - G
-  - F23
+  - '&mkp MB1'
   - H
   - J
   - K
   - L
   - {t: ;, s: ':'}
-  - {t: '-', s: _}
+  - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
   - Z
   - X
   - C
   - V
   - B
-  - F21
+  - '&mkp MB2'
   - N
   - M
   - {t: ',', s: <}
   - .
-  - $$mdi:apple-keyboard-shift$$
-  - RIGHT WIN
+  - {t: /, s: '?'}
+  - $$mdi:apple-keyboard-control$$
   - $$mdi:alpha-w-box$$
   - INT4
-  - INT5
+  - LEFT WIN
   - $$mdi:apple-keyboard-option$$
   - layer1
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - '&mkp MB3'
   - $$mdi:keyboard-space$$
-  - '2'
-  - $$mdi:backspace-reverse-outline$$
-  - {t: /, s: '?'}
-  - $$mdi:apple-keyboard-control$$
+  - {t: '-', s: _}
+  - {t: '-', s: _}
+  - {t: '=', s: +}
+  - INT4
   layer1:
   - {t: '`', s: '~'}
   - F1
@@ -89,8 +89,8 @@ layers:
   - END
   - $$mdi:arrow-up-bold$$
   - HOME
-  - \
-  - {t: '=', s: +}
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
   - RGB COLOR HSB(0,100,50)
   - RGB COLOR HSB(61,100,54)
   - RGB COLOR HSB(119,100,50)
@@ -102,8 +102,8 @@ layers:
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
+  - {t: '''', s: '"'}
+  - \
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB OFF
   - RGB ON
@@ -136,24 +136,24 @@ layers:
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
   - {h: '4', s: '$$mdi:bluetooth-connect$$'}
   - {h: '5', s: '$$mdi:bluetooth-connect$$'}
-  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - '&mkp MB3'
-  - '&mkp MB2'
-  - F8
-  - F9
-  - F10
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
+  - F16
+  - F1
+  - F2
+  - F3
+  - F20
+  - F21
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:bluetooth-off$$
   - BT CLR ALL
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - '&mkp MB1'
-  - F1
-  - F2
-  - F3
+  - {t: '$$mdi:transfer$$', type: trans}
+  - F17
+  - F4
+  - F5
+  - F6
   - _
   - +
   - {t: '$$mdi:transfer$$', type: trans}
@@ -163,10 +163,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - F4
-  - F5
-  - F6
+  - F18
+  - F7
+  - F8
+  - F9
   - '{'
   - '}'
   - {t: '$$mdi:transfer$$', type: trans}
@@ -176,12 +176,12 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - F7
-  - F8
-  - F9
+  - F19
+  - F10
+  - F11
+  - F12
   - $$mdi:apple-keyboard-shift$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -190,10 +190,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:apple-keyboard-control$$
+  - F13
+  - F14
+  - F15
   '3':
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -214,7 +214,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
